@@ -1,0 +1,9 @@
+
+funzione somma(numero1, numero2)
+	//calcolo risultato
+	risultato = numero1 + numero2
+
+	//restituisco il risultato
+	restituisci risultato
+fine
+
