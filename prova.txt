@@ -1,10 +1,17 @@
-Ciao mondo!
-seconda riga
-riga nel mezzo
-terza riga
-ennesima modifica al file
- 
 
-ciao 
-gghghgf 
- decima riga di modifica
+funzione controllo(numero1, numero2)
+	//verifico quale numero è uguale
+	
+    se numero1 = numero2
+	
+    allora
+	
+    	risultato = "uguali" 
+	altrimenti
+		
+        risultato = "diversi"
+	fine se
+
+	//restituisco il numero
+	restituisci risultato
+fine

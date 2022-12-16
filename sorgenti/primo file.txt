@@ -1,9 +1,36 @@
 
 funzione somma(numero1, numero2)
-	//calcolo risultato
+	
+    //calcolo risultato
 	risultato = numero1 + numero2
+
+	//restituisco il risultato
+	restituisci risultato
+
+fine
+
+funzione maggiore(numero1, numero2)
+	//verifico quale numero è più grande
+	se numero1 > numero2
+	allora
+		risultato = numero1
+	altrimenti
+		risultato = numero2
+	fine se
 
 	//restituisco il risultato
 	restituisci risultato
 fine
 
+funzione controllo(numero1, numero2)
+	//verifico se i numeri sono uguali
+	se numero1 = numero2
+	allora
+		risultato = "uguali"
+	altrimenti
+		risultato = "diversi"
+	fine se
+
+	//restituisco il risultato
+	restituisci risultato
+fine
